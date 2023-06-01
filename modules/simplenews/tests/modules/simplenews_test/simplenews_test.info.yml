@@ -1,0 +1,12 @@
+name: Simplenews Test
+type: module
+package: Mail
+hidden: true
+core_version_requirement: ^8.8 || ^9
+dependencies:
+  - simplenews:simplenews
+
+# Information added by Drupal.org packaging script on 2023-02-02
+version: '3.0.0-beta4+4-dev'
+project: 'simplenews'
+datestamp: 1675334747

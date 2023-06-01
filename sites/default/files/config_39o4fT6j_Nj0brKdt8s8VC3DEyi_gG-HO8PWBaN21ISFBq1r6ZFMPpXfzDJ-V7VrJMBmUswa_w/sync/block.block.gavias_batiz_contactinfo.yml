@@ -1,0 +1,35 @@
+uuid: 0a85167f-5e51-425e-9a75-61e1f818963e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7da38301-272f-4979-8de1-06b564010f17'
+  module:
+    - block_content
+    - block_visibility_groups
+    - gaviasthemer
+  theme:
+    - gavias_batiz
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: gavias_batiz_contactinfo
+theme: gavias_batiz
+region: footer_four
+weight: -15
+provider: null
+plugin: 'block_content:7da38301-272f-4979-8de1-06b564010f17'
+settings:
+  id: 'block_content:7da38301-272f-4979-8de1-06b564010f17'
+  label: 'LIÊN HỆ'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: ''

@@ -1,0 +1,19 @@
+uuid: 0fc63d7e-e3b0-4108-b7f6-871cb0be6425
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_trich_yeu
+    - node.type.van_ban
+id: node.van_ban.field_trich_yeu
+field_name: field_trich_yeu
+entity_type: node
+bundle: van_ban
+label: 'Trích yếu'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

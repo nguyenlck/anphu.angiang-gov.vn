@@ -1,0 +1,30 @@
+uuid: 663e4c0b-dbe4-44ee-a058-4e5730fffe11
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.gallery.field_paragraph_images
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.gallery
+  module:
+    - image
+    - imce
+id: paragraph.gallery.default
+targetEntityType: paragraph
+bundle: gallery
+mode: default
+content:
+  field_paragraph_images:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings:
+      imce:
+        enabled: true
+hidden:
+  created: true
+  status: true
+  uid: true

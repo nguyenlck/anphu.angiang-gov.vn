@@ -1,0 +1,10 @@
+uuid: 6d547e89-ccac-40ab-b322-0b9beec75d52
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.teaser_5
+label: 'Teaser 5 (For Large Article List Large)'
+targetEntityType: node
+cache: true

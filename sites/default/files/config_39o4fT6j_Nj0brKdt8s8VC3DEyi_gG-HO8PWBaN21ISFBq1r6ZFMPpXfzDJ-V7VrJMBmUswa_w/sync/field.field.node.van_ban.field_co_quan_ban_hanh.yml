@@ -1,0 +1,21 @@
+uuid: e762a400-9150-411f-9b3b-024e91a8ea74
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_co_quan_ban_hanh
+    - node.type.van_ban
+  module:
+    - options
+id: node.van_ban.field_co_quan_ban_hanh
+field_name: field_co_quan_ban_hanh
+entity_type: node
+bundle: van_ban
+label: 'Cơ quan ban hành'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

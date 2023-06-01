@@ -1,0 +1,10 @@
+uuid: d56af173-0c75-41ed-b31c-ecb51184d7b1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.teaser_1
+label: 'Teaser 1 (For Grid Small)'
+targetEntityType: node
+cache: true

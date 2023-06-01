@@ -1,0 +1,105 @@
+uuid: 9858bc17-99e4-4c14-a314-d347e1df0d3f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_loai_van_ban
+field_name: field_loai_van_ban
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: cong-van
+      label: 'Công văn'
+    -
+      value: ban-thoa-thuan
+      label: 'Bản thỏa thuận'
+    -
+      value: giay-gioi-thieu
+      label: 'Giấy giới thiệu'
+    -
+      value: tuong-trinh
+      label: 'Tường trình'
+    -
+      value: van-kien
+      label: 'Văn kiện'
+    -
+      value: bao-cao
+      label: 'Báo cáo'
+    -
+      value: bien-ban
+      label: 'Biên bản'
+    -
+      value: chi-thi
+      label: 'Chỉ thị'
+    -
+      value: chuong-trinh
+      label: 'Chương trình'
+    -
+      value: cong-dien
+      label: 'Công điện'
+    -
+      value: du-an
+      label: 'Dự án'
+    -
+      value: de-an
+      label: 'Đề ấn'
+    -
+      value: de-nghi
+      label: 'Đề nghị'
+    -
+      value: giay-moi
+      label: 'Giấy mời'
+    -
+      value: ke-hoach
+      label: 'Kế hoạch'
+    -
+      value: ket-luan
+      label: 'Kết luận'
+    -
+      value: khac
+      label: Khác
+    -
+      value: nghi-dinh
+      label: 'Nghị định'
+    -
+      value: nghi-quyet
+      label: 'Nghị quyết'
+    -
+      value: quy-che
+      label: 'Quy chế'
+    -
+      value: quy-dinh
+      label: 'Quy định'
+    -
+      value: quyet-dinh
+      label: 'Quyết định'
+    -
+      value: thong-bao
+      label: 'Thông báo'
+    -
+      value: thong-cao
+      label: 'Thông cáo'
+    -
+      value: thong-tu
+      label: 'Thông tư'
+    -
+      value: to-trinh
+      label: 'Tờ trình'
+    -
+      value: thu-ngo
+      label: 'Thư ngõ'
+    -
+      value: ban-ghi-nho
+      label: 'Bản ghi nhớ'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

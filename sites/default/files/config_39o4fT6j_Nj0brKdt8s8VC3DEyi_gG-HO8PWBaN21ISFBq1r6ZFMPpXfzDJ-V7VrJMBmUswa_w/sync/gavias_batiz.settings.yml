@@ -1,0 +1,34 @@
+features:
+  node_user_picture: 0
+  comment_user_picture: 0
+  comment_user_verification: 0
+  favicon: 1
+logo:
+  use_default: 0
+  path: 'public://logo.png'
+favicon:
+  use_default: 0
+  path: 'public://logo.png'
+  mimetype: image/png
+theme_skin: blue
+enable_customize: '0'
+lazy_load: 'off'
+sticky_menu: '1'
+site_layout: wide
+default_header: header-2
+footer_first_size: '2'
+footer_second_size: '6'
+footer_third_size: '0'
+footer_four_size: '4'
+facebook: '#'
+twitter: ''
+skype: ''
+instagram: ''
+dribbble: ''
+linkedin: ''
+pinterest: ''
+google: ''
+youtube: '#'
+vimeo: ''
+tumblr: ''
+customize_css: ''

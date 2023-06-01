@@ -1,0 +1,31 @@
+node_search:
+  path: node
+  search: 1
+  advanced:
+    visibility: 0
+    collapsible: 1
+    collapsed: 1
+    criteria:
+      or: or
+      phrase: phrase
+      negative: negative
+    types:
+      article: article
+      banner: banner
+      gallery: gallery
+      page: page
+      slideshow: slideshow
+      van_ban: van_ban
+      video: video
+    languages:
+      en: en
+      und: und
+      zxx: zxx
+  info:
+    type: type
+    user: 0
+    date: 0
+  filter:
+    position: disabled
+    label: 'Filter the results'
+    any: '- Tất cả -'

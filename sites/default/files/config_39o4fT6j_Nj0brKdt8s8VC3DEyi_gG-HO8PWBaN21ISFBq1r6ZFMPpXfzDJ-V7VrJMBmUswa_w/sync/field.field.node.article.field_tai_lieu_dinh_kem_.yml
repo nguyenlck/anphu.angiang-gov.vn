@@ -1,0 +1,46 @@
+uuid: 25d27a77-2abd-483c-832c-e8c098269e47
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tai_lieu_dinh_kem_
+    - node.type.article
+  module:
+    - file
+    - filefield_paths
+third_party_settings:
+  filefield_paths:
+    enabled: false
+    file_path:
+      value: '[date:custom:Y]-[date:custom:m]'
+      options:
+        slashes: false
+        pathauto: false
+        transliterate: false
+    file_name:
+      value: '[file:ffp-name-only-original].[file:ffp-extension-original]'
+      options:
+        slashes: false
+        pathauto: false
+        transliterate: false
+    redirect: false
+    retroactive_update: false
+    active_updating: false
+id: node.article.field_tai_lieu_dinh_kem_
+field_name: field_tai_lieu_dinh_kem_
+entity_type: node
+bundle: article
+label: 'Tài liệu đính kèm:'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'doc docx pdf xlsm'
+  max_filesize: '6 MB'
+  description_field: false
+field_type: file

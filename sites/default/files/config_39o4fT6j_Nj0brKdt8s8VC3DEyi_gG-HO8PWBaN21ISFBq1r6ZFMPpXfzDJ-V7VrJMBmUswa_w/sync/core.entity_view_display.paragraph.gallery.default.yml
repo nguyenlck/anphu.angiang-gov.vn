@@ -1,0 +1,26 @@
+uuid: 8d2c5e99-7921-48b6-9a2d-5502d8ab4717
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.gallery.field_paragraph_images
+    - paragraphs.paragraphs_type.gallery
+  module:
+    - image
+id: paragraph.gallery.default
+targetEntityType: paragraph
+bundle: gallery
+mode: default
+content:
+  field_paragraph_images:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

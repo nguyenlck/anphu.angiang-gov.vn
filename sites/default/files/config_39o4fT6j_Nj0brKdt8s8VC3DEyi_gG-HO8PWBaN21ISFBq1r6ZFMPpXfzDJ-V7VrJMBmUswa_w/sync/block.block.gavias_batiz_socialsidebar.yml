@@ -1,0 +1,37 @@
+uuid: 1e159975-d6b9-4e6b-ae40-3c177fae0e40
+langcode: en
+status: false
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.right_sidebar
+  content:
+    - 'block_content:basic:7a007496-476f-455b-b47c-4029a5a22ae0'
+  module:
+    - block_content
+    - block_visibility_groups
+    - gaviasthemer
+  theme:
+    - gavias_batiz
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: gavias_batiz_socialsidebar
+theme: gavias_batiz
+region: sidebar_right
+weight: -16
+provider: null
+plugin: 'block_content:7a007496-476f-455b-b47c-4029a5a22ae0'
+settings:
+  id: 'block_content:7a007496-476f-455b-b47c-4029a5a22ae0'
+  label: 'Social Networks'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: right_sidebar

@@ -1,0 +1,9 @@
+uuid: 6eca8c6a-a6b9-4ce6-9009-580b484fb183
+langcode: en
+status: true
+dependencies: {  }
+id: bien_tap_vien
+label: 'Biên tập viên'
+weight: 3
+is_admin: null
+permissions: {  }

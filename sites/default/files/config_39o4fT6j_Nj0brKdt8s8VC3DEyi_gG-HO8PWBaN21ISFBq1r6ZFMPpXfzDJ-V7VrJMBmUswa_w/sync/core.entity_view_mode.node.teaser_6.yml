@@ -1,0 +1,10 @@
+uuid: 18e4aacf-0de7-460f-bca9-6e7db9a6bbf3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.teaser_6
+label: 'Teaser 6 (For Large Article First & Articles List No Image)'
+targetEntityType: node
+cache: true

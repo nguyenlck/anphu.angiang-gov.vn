@@ -1,0 +1,37 @@
+uuid: 09a91b46-34ec-4d26-b8de-adfe413d68b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.right_sidebar_blog
+    - views.view.categories_post
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - views
+  theme:
+    - gavias_batiz
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+_core:
+  default_config_hash: dKU3681jcpJqSVp_eQqEJm8ybz43YzXUaWFRyBVNmmI
+id: gavias_batiz_views_block__categories_post_block_1
+theme: gavias_batiz
+region: sidebar_right
+weight: -17
+provider: null
+plugin: 'views_block:categories_post-block_1'
+settings:
+  id: 'views_block:categories_post-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: right_sidebar_blog

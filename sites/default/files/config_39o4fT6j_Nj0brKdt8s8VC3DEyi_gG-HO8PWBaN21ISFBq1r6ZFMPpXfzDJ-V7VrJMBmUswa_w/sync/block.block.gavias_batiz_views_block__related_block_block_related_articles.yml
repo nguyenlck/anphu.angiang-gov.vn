@@ -1,0 +1,36 @@
+uuid: 31a768d6-267a-4ec0-ad12-5a82c2cbf8f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.related_block
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - views
+  theme:
+    - gavias_batiz
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+_core:
+  default_config_hash: zdQWqi2MuG-SYpIOPB2ka2ySPzEg-NDTlZjWcZ9kwk0
+id: gavias_batiz_views_block__related_block_block_related_articles
+theme: gavias_batiz
+region: related_content
+weight: -14
+provider: null
+plugin: 'views_block:related_block-block_related_articles'
+settings:
+  id: 'views_block:related_block-block_related_articles'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: ''

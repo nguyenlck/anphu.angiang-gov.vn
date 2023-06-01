@@ -1,0 +1,34 @@
+uuid: 1ed915b5-3ebe-4e2b-8bd6-79ccf4bc57ff
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f07153de-15b9-45cd-861b-b1a28e3f254d'
+  module:
+    - block_content
+    - block_visibility_groups
+    - gaviasthemer
+  theme:
+    - gavias_batiz
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: block_topbarleft
+theme: gavias_batiz
+region: breaking_news
+weight: 0
+provider: null
+plugin: 'block_content:f07153de-15b9-45cd-861b-b1a28e3f254d'
+settings:
+  id: 'block_content:f07153de-15b9-45cd-861b-b1a28e3f254d'
+  label: Block_TopbarLeft
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''

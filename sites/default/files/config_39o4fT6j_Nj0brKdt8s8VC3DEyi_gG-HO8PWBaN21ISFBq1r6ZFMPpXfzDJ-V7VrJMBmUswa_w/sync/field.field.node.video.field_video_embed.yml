@@ -1,0 +1,21 @@
+uuid: 5afd47a4-98dd-4cb7-a8fa-785faab2afed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video_embed
+    - node.type.video
+_core:
+  default_config_hash: rxi99ZjBxIOa8s25t3ZSfC0EON8860N_M2tChI8gWvo
+id: node.video.field_video_embed
+field_name: field_video_embed
+entity_type: node
+bundle: video
+label: 'Link Video'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

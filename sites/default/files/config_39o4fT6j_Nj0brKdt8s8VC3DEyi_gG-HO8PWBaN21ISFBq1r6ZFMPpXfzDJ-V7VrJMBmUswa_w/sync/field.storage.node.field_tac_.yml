@@ -1,0 +1,57 @@
+uuid: 387d215c-9002-4a32-9486-b8c5fc7ad2ce
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_tac_
+field_name: field_tac_
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'TTCT TP'
+      label: 'TTCT TP'
+    -
+      value: 'Hồng Lan'
+      label: 'Hồng Lan'
+    -
+      value: 'Nguyễn Liên'
+      label: 'Nguyễn Liên'
+    -
+      value: 'Kim Tuyến'
+      label: 'Kim Tuyến'
+    -
+      value: 'Thành Nhân'
+      label: 'Thành Nhân'
+    -
+      value: 'Hồng Đào'
+      label: 'Hồng Đào'
+    -
+      value: 'Diễm Phương'
+      label: 'Diễm Phương'
+    -
+      value: 'UBND phường Mỹ Long'
+      label: 'UBND phường Mỹ Long'
+    -
+      value: 'Ban VHTT phường Mỹ Thạnh'
+      label: 'Ban VHTT phường Mỹ Thạnh'
+    -
+      value: 'Minh Trường'
+      label: 'Minh Trường'
+    -
+      value: 'Ngoc Điễm'
+      label: 'Ngoc Điễm'
+    -
+      value: 'Đỗ Nguyên'
+      label: 'Đỗ Nguyên'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 3
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

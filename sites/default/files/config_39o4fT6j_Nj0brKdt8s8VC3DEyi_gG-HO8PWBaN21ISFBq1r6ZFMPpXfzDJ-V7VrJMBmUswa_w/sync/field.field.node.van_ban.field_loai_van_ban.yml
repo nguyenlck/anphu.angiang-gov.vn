@@ -1,0 +1,21 @@
+uuid: 4af35ab1-0913-42e0-9222-bae7b70231f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_loai_van_ban
+    - node.type.van_ban
+  module:
+    - options
+id: node.van_ban.field_loai_van_ban
+field_name: field_loai_van_ban
+entity_type: node
+bundle: van_ban
+label: 'Loại văn bản'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

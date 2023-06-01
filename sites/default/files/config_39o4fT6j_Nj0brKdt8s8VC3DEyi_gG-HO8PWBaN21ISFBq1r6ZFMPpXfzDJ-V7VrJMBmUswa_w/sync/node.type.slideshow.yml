@@ -1,0 +1,17 @@
+uuid: 97b0b4a6-a546-48f3-99b0-59d9ee4845dd
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Slideshow
+type: slideshow
+description: 'Hình ảnh slider có kích thước: 1920x570'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

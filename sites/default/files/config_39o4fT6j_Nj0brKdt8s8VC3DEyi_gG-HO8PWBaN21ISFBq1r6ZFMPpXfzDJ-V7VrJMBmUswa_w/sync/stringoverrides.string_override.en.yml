@@ -1,0 +1,16 @@
+contexts:
+  -
+    context: ''
+    translations:
+      -
+        source: '- Any -'
+        translation: '- Tất cả -'
+      -
+        source: Search
+        translation: 'Tìm kiếm'
+      -
+        source: from
+        translation: Từ
+      -
+        source: to
+        translation: đến

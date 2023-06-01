@@ -1,0 +1,40 @@
+uuid: 4b40dd0c-718d-4f6c-996e-2406ccd6baf7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser_1
+    - field.field.node.video.body
+    - field.field.node.video.field_image
+    - field.field.node.video.field_video_embed
+    - image.style.normal_size
+    - node.type.video
+  module:
+    - image
+    - user
+_core:
+  default_config_hash: h0IZElQ8pXBeOkQdTlB30k4SS-RDT2AA0RCqoZ7TDPk
+id: node.video.teaser_1
+targetEntityType: node
+bundle: video
+mode: teaser_1
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: normal_size
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  field_video_embed: true

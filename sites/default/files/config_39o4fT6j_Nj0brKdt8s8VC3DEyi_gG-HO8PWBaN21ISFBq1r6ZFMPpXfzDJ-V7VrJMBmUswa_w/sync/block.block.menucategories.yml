@@ -1,0 +1,35 @@
+uuid: e133bc3b-7e90-4ae6-a735-d802eeb06f9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-categories
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - system
+  theme:
+    - gavias_batiz
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: menucategories
+theme: gavias_batiz
+region: other
+weight: -14
+provider: null
+plugin: 'system_menu_block:menu-categories'
+settings:
+  id: 'system_menu_block:menu-categories'
+  label: 'DANH MỤC'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: ''

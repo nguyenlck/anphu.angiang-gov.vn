@@ -1,0 +1,20 @@
+uuid: 4b4f02ab-5660-4b7a-971e-b82265cecd38
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_ngay_ban_hanh
+field_name: field_ngay_ban_hanh
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,32 @@
+uuid: b777d6f5-74db-4acb-96fe-5221677f6e0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.van_ban.field_co_quan_ban_hanh
+    - field.field.node.van_ban.field_loai_van_ban
+    - field.field.node.van_ban.field_nam
+    - field.field.node.van_ban.field_ngay_ban_hanh
+    - field.field.node.van_ban.field_trich_yeu
+    - field.field.node.van_ban.field_van_ban
+    - node.type.van_ban
+  module:
+    - user
+id: node.van_ban.teaser
+targetEntityType: node
+bundle: van_ban
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_co_quan_ban_hanh: true
+  field_loai_van_ban: true
+  field_nam: true
+  field_ngay_ban_hanh: true
+  field_trich_yeu: true
+  field_van_ban: true

@@ -1,0 +1,150 @@
+uuid: 5992b262-a1f9-437e-ada1-c022d5f0b671
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.van_ban.field_co_quan_ban_hanh
+    - field.field.node.van_ban.field_loai_van_ban
+    - field.field.node.van_ban.field_nam
+    - field.field.node.van_ban.field_ngay_ban_hanh
+    - field.field.node.van_ban.field_trich_yeu
+    - field.field.node.van_ban.field_van_ban
+    - node.type.van_ban
+  module:
+    - datetime
+    - file
+    - path
+id: node.van_ban.default
+targetEntityType: node
+bundle: van_ban
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_co_quan_ban_hanh:
+    type: options_select
+    weight: 122
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_loai_van_ban:
+    type: options_select
+    weight: 123
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_nam:
+    type: options_select
+    weight: 125
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_ngay_ban_hanh:
+    type: datetime_default
+    weight: 124
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_trich_yeu:
+    type: string_textfield
+    weight: 126
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_van_ban:
+    type: file_generic
+    weight: 127
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+  gva_body_background:
+    type: options_select
+    weight: -1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  gva_box_layout:
+    type: options_select
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  gva_breadcrumb:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  gva_header:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  gva_node_class:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  gva_node_layout:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 15
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 120
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 16
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

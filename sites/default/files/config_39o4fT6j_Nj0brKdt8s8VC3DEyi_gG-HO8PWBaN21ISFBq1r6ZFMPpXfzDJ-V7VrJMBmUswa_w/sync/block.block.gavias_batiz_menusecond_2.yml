@@ -1,0 +1,35 @@
+uuid: e9886613-a678-4c95-9f1b-92fbb0d0e5b1
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.menu-second
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - system
+  theme:
+    - gavias_batiz
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: gavias_batiz_menusecond_2
+theme: gavias_batiz
+region: menu_another
+weight: -14
+provider: null
+plugin: 'system_menu_block:menu-second'
+settings:
+  id: 'system_menu_block:menu-second'
+  label: 'Menu second'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: ''

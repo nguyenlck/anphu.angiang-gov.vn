@@ -1,0 +1,45 @@
+uuid: e7413a81-73a0-43d4-9a42-a9a93d0e83d3
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_visibility_groups
+    - fb_likebox
+    - gaviasthemer
+  theme:
+    - gavias_batiz
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: gavias_batiz_fblikebox
+theme: gavias_batiz
+region: other
+weight: -13
+provider: null
+plugin: fb_likebox_block
+settings:
+  id: fb_likebox_block
+  label: 'FB Likebox'
+  label_display: '0'
+  provider: fb_likebox
+  url: 'https://www.facebook.com/cttangiang'
+  app_id: ''
+  hide_header: 1
+  stream: 0
+  events: 1
+  messages: 0
+  show_faces: '1'
+  title: Title
+  width: 500
+  height: 300
+  hide_cta: 0
+  small_header: 0
+  adapt_container_width: 1
+  language: vi_VN
+  small_cta: ''
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: ''

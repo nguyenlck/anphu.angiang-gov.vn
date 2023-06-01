@@ -1,0 +1,28 @@
+uuid: 45910165-8956-4f82-b295-3314cfc00905
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - system
+_core:
+  default_config_hash: SvskwJu0wj5tP_WZB7QEa3WSqh4FLgNX0e9BxUf3WaI
+id: right_sidebar_blog
+label: 'Right sidebar for blog page only'
+logic: or
+conditions:
+  d89443ed-fd77-49b6-9874-dddbd1b2710c:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: d89443ed-fd77-49b6-9874-dddbd1b2710c
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article
+  31f2701f-15b2-4fa0-b229-9181c115fda6:
+    id: request_path
+    negate: false
+    uuid: 31f2701f-15b2-4fa0-b229-9181c115fda6
+    context_mapping: {  }
+    pages: "/blogs-list\r\n/contact"
+allow_other_conditions: false

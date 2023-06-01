@@ -1,0 +1,46 @@
+uuid: 5b3557f1-66cb-4b19-a2e9-4640cd5dbf6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_van_ban
+    - node.type.van_ban
+  module:
+    - file
+    - filefield_paths
+third_party_settings:
+  filefield_paths:
+    enabled: true
+    file_path:
+      value: '[date:custom:Y]-[date:custom:m]'
+      options:
+        slashes: false
+        pathauto: false
+        transliterate: false
+    file_name:
+      value: '[file:ffp-name-only-original].[file:extension]'
+      options:
+        slashes: true
+        pathauto: true
+        transliterate: true
+    redirect: false
+    retroactive_update: false
+    active_updating: false
+id: node.van_ban.field_van_ban
+field_name: field_van_ban
+entity_type: node
+bundle: van_ban
+label: 'Văn bản'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'doc docx pdf xlsm'
+  max_filesize: '8 MB'
+  description_field: false
+field_type: file

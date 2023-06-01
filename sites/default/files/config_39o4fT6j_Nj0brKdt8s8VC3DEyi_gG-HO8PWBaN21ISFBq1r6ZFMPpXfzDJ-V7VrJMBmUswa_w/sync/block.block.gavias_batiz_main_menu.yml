@@ -1,0 +1,40 @@
+uuid: deca961c-685e-4c65-84b7-5db4a5708d0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - block_class
+    - block_visibility_groups
+    - gaviasthemer
+    - system
+  theme:
+    - gavias_batiz
+third_party_settings:
+  block_class:
+    classes: full-block
+  gaviasthemer:
+    classes: ''
+_core:
+  default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
+id: gavias_batiz_main_menu
+theme: gavias_batiz
+region: main_menu
+weight: -14
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 3
+  expand_all_items: false
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: ''

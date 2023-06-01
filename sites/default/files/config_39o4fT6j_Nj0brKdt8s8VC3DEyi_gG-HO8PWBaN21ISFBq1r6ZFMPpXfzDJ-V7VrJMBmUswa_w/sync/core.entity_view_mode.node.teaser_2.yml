@@ -1,0 +1,10 @@
+uuid: fd9cf958-b37b-4bd2-a724-13a22135a2b4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.teaser_2
+label: 'Teaser 2 (For Grid Lage)'
+targetEntityType: node
+cache: true

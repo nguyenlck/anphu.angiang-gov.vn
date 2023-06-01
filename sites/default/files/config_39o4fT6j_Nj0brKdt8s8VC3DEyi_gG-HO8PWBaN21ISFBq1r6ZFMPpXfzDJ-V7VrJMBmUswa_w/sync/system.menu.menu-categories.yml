@@ -1,0 +1,8 @@
+uuid: 220cc907-dd54-41ee-b57a-e04914a2d776
+langcode: en
+status: true
+dependencies: {  }
+id: menu-categories
+label: 'Danh mục'
+description: ''
+locked: false

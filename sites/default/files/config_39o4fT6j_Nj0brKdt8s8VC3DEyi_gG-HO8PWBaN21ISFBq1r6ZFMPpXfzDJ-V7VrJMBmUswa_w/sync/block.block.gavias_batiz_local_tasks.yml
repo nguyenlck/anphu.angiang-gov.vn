@@ -1,0 +1,22 @@
+uuid: 8ba56040-6f14-402e-a34a-bb63c0ed4f03
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gavias_batiz
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: gavias_batiz_local_tasks
+theme: gavias_batiz
+region: help
+weight: -11
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

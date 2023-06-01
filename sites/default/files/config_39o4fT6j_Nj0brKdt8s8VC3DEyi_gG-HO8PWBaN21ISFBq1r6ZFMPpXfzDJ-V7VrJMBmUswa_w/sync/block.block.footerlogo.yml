@@ -1,0 +1,37 @@
+uuid: 09ee21ca-7e7c-4e2d-b193-fbb86ff34258
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:cb0e67f9-e482-4bc6-9e3d-c1ce7999e42d'
+  module:
+    - block_class
+    - block_content
+    - block_visibility_groups
+    - gaviasthemer
+  theme:
+    - gavias_batiz
+third_party_settings:
+  block_class:
+    classes: footer-logo
+  gaviasthemer:
+    classes: ''
+id: footerlogo
+theme: gavias_batiz
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:cb0e67f9-e482-4bc6-9e3d-c1ce7999e42d'
+settings:
+  id: 'block_content:cb0e67f9-e482-4bc6-9e3d-c1ce7999e42d'
+  label: 'Footer logo'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''

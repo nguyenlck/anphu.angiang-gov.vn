@@ -1,0 +1,10 @@
+uuid: bb957db4-ce09-42bf-b51c-deab932e3bde
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.small
+label: 'Small - For List Articles Small'
+targetEntityType: node
+cache: true

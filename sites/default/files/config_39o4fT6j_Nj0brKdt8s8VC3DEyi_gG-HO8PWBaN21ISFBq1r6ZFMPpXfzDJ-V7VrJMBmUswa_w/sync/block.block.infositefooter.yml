@@ -1,0 +1,37 @@
+uuid: c75a0752-067b-4c33-81c6-e5f3edff3ae1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:feff1447-ffd1-49e4-bfab-0022a23deb4a'
+  module:
+    - block_class
+    - block_content
+    - block_visibility_groups
+    - gaviasthemer
+  theme:
+    - gavias_batiz
+third_party_settings:
+  block_class:
+    classes: 'footer.fa footer.fa-facebook'
+  gaviasthemer:
+    classes: ''
+id: infositefooter
+theme: gavias_batiz
+region: footer_second
+weight: 0
+provider: null
+plugin: 'block_content:feff1447-ffd1-49e4-bfab-0022a23deb4a'
+settings:
+  id: 'block_content:feff1447-ffd1-49e4-bfab-0022a23deb4a'
+  label: 'CỔNG THÔNG TIN ĐIỆN TỬ THÀNH PHỐ LONG XUYÊN'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''

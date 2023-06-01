@@ -1,0 +1,147 @@
+uuid: 920757c5-efae-4495-968d-a414e738063e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_co_quan_ban_hanh
+field_name: field_co_quan_ban_hanh
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'UBND tỉnh An Giang'
+      label: 'UBND tỉnh An Giang'
+    -
+      value: 'Ủy ban nhân dân thành phố Long Xuyên'
+      label: 'Ủy ban nhân dân thành phố Long Xuyên'
+    -
+      value: 'Văn phòng HĐND và UBND thành phố Long Xuyên'
+      label: 'Văn phòng HĐND và UBND thành phố Long Xuyên'
+    -
+      value: 'Đoàn Đại biểu Quốc hội và Hội đồng nhân dân tỉnh An Giang'
+      label: 'Đoàn Đại biểu Quốc hội và Hội đồng nhân dân tỉnh An Giang'
+    -
+      value: 'Ủy ban nhân dân huyện Phú Tân'
+      label: 'Ủy ban nhân dân huyện Phú Tân'
+    -
+      value: 'Ủy ban nhân dân huyện Tri Tôn'
+      label: 'Ủy ban nhân dân huyện Tri Tôn'
+    -
+      value: 'Ủy ban nhân dân huyện Chợ Mới'
+      label: 'Ủy ban nhân dân huyện Chợ Mới'
+    -
+      value: 'Ủy ban nhân dân huyện Thoại Sơn'
+      label: 'Ủy ban nhân dân huyện Thoại Sơn'
+    -
+      value: 'Ủy ban nhân dân huyện Châu Phú'
+      label: 'Ủy ban nhân dân huyện Châu Phú'
+    -
+      value: 'Ủy ban nhân dân thành phố Châu Đốc'
+      label: 'Ủy ban nhân dân thành phố Châu Đốc'
+    -
+      value: 'Sở Tư pháp'
+      label: 'Sở Tư pháp'
+    -
+      value: 'Sở Giao thông Vận tải'
+      label: 'Sở Giao thông Vận tải'
+    -
+      value: 'Sở Thông tin và Truyền thông'
+      label: 'Sở Thông tin và Truyền thông'
+    -
+      value: 'Sở Nội vụ'
+      label: 'Sở Nội vụ'
+    -
+      value: 'Sở Công thương'
+      label: 'Sở Công thương'
+    -
+      value: 'Sở Tài nguyên và Môi trường'
+      label: 'Sở Tài nguyên và Môi trường'
+    -
+      value: 'Sở Nông nghiệp và Phát triển Nông thôn'
+      label: 'Sở Nông nghiệp và Phát triển Nông thôn'
+    -
+      value: 'Sở Lao động – Thương binh và Xã hội'
+      label: 'Sở Lao động – Thương binh và Xã hội'
+    -
+      value: 'Sở Tài chính'
+      label: 'Sở Tài chính'
+    -
+      value: 'Sở Văn hóa, Thể thao và Du lịch'
+      label: 'Sở Văn hóa, Thể thao và Du lịch'
+    -
+      value: 'Sở Giáo dục và Đào tạo'
+      label: 'Sở Giáo dục và Đào tạo'
+    -
+      value: 'Sở Xây dựng'
+      label: 'Sở Xây dựng'
+    -
+      value: 'Sở Y tế'
+      label: 'Sở Y tế'
+    -
+      value: 'Sở Ngoại vụ'
+      label: 'Sở Ngoại vụ'
+    -
+      value: 'Sở Kế hoạch và Đầu tư'
+      label: 'Sở Kế hoạch và Đầu tư'
+    -
+      value: 'Sở Khoa học và Công nghệ'
+      label: 'Sở Khoa học và Công nghệ'
+    -
+      value: 'Ban Quản lý Khu kinh tế'
+      label: 'Ban Quản lý Khu kinh tế'
+    -
+      value: 'Ban Dân tộc'
+      label: 'Ban Dân tộc'
+    -
+      value: 'Ban Quản lý Khu du lịch quốc gia Núi Sam'
+      label: 'Ban Quản lý Khu du lịch quốc gia Núi Sam'
+    -
+      value: 'Ủy ban nhân dân thị xã Tân Châu'
+      label: 'Ủy ban nhân dân thị xã Tân Châu'
+    -
+      value: 'Ủy ban nhân dân huyện Châu Thành'
+      label: 'Ủy ban nhân dân huyện Châu Thành'
+    -
+      value: 'Ủy ban nhân dân huyện An Phú'
+      label: 'Ủy ban nhân dân huyện An Phú'
+    -
+      value: 'Ủy ban nhân dân huyện Tịnh Biên'
+      label: 'Ủy ban nhân dân huyện Tịnh Biên'
+    -
+      value: 'Ủy ban MTTQ Việt Nam tỉnh An Giang'
+      label: 'Ủy ban MTTQ Việt Nam tỉnh An Giang'
+    -
+      value: 'Cục Thuế Tỉnh An Giang'
+      label: 'Cục Thuế Tỉnh An Giang'
+    -
+      value: 'Thanh tra tỉnh An Giang'
+      label: 'Thanh tra tỉnh An Giang'
+    -
+      value: 'Trung tâm Xúc tiến Thương mại và Đầu tư'
+      label: 'Trung tâm Xúc tiến Thương mại và Đầu tư'
+    -
+      value: 'Hội Nạn nhân chất độc da cam đioxin tỉnh An Giang'
+      label: 'Hội Nạn nhân chất độc da cam đioxin tỉnh An Giang'
+    -
+      value: 'Tỉnh đoàn An Giang'
+      label: 'Tỉnh đoàn An Giang'
+    -
+      value: 'Hội Người tù kháng chiến tỉnh An Giang'
+      label: 'Hội Người tù kháng chiến tỉnh An Giang'
+    -
+      value: 'Hội Người mù tỉnh An Giang'
+      label: 'Hội Người mù tỉnh An Giang'
+    -
+      value: 'Công ty TNHH MTV Xổ số Kiến thiết An Giang'
+      label: 'Công ty TNHH MTV Xổ số Kiến thiết An Giang'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

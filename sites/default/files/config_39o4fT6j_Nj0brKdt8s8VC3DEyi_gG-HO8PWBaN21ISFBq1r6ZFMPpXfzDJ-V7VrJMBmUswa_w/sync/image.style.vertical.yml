@@ -1,0 +1,17 @@
+uuid: ad08340d-9d03-46e0-ab88-5ca4aa82a130
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: GMaFylNPXXdwcxtazDIDaTuW7mZlx55Ll09OoSJbvs0
+name: vertical
+label: 'Vertical (700×757)'
+effects:
+  28cc2b7a-8071-47b7-9a38-56be81379339:
+    uuid: 28cc2b7a-8071-47b7-9a38-56be81379339
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 700
+      height: 757
+      anchor: center-center

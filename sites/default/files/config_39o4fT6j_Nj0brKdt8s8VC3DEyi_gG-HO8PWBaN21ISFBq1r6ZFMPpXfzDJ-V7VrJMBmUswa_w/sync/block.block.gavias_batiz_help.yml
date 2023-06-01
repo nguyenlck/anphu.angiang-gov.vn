@@ -1,0 +1,22 @@
+uuid: 76f17a3f-74b6-443a-8c48-3f8fbbff9b13
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - gavias_batiz
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: gavias_batiz_help
+theme: gavias_batiz
+region: help
+weight: -13
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

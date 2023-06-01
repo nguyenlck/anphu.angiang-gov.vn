@@ -1,0 +1,37 @@
+uuid: 676bdd93-e0b5-4bf0-8064-d98e15e4f9a0
+langcode: en
+status: false
+dependencies:
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - system
+  theme:
+    - gavias_batiz
+third_party_settings:
+  gaviasthemer:
+    breadcrumb_background_image_path: ''
+    breadcrumb_background_color: ''
+    breadcrumb_background_position: 'center top'
+    breadcrumb_background_repeat: no-repeat
+    breadcrumb_color_style: text-dark
+    classes: ''
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: gavias_batiz_breadcrumbs
+theme: gavias_batiz
+region: breadcrumbs
+weight: -8
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: ''

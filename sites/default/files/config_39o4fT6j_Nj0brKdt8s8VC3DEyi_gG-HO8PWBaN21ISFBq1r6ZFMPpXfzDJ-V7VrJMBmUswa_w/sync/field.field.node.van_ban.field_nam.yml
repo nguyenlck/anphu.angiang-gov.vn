@@ -1,0 +1,21 @@
+uuid: bde77af5-613c-4b37-8ae6-b5e9d998f8ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nam
+    - node.type.van_ban
+  module:
+    - options
+id: node.van_ban.field_nam
+field_name: field_nam
+entity_type: node
+bundle: van_ban
+label: Năm
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

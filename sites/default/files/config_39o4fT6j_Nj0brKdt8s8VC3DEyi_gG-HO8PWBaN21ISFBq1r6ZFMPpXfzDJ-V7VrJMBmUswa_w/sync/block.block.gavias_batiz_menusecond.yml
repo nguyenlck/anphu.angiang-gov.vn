@@ -1,0 +1,40 @@
+uuid: e83c2876-b245-4b7c-be74-38cd40da59ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-second
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - system
+  theme:
+    - gavias_batiz
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: gavias_batiz_menusecond
+theme: gavias_batiz
+region: sidebar_right
+weight: -18
+provider: null
+plugin: 'system_menu_block:menu-second'
+settings:
+  id: 'system_menu_block:menu-second'
+  label: 'Menu second'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: "/team-grid\r\n/team-list\r\n/node/69\r\n/node/71\r\n/node/73\r\n/node/74\r\n/node/75\r\n/team-grid\r\n/team-list\r\n"

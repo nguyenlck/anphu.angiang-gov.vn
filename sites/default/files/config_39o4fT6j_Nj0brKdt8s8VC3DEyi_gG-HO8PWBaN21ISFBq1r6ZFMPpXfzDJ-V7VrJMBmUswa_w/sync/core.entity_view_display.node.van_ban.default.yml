@@ -1,0 +1,73 @@
+uuid: 8451f1bf-c4b0-488f-8401-e1e537abdb9b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.van_ban.field_co_quan_ban_hanh
+    - field.field.node.van_ban.field_loai_van_ban
+    - field.field.node.van_ban.field_nam
+    - field.field.node.van_ban.field_ngay_ban_hanh
+    - field.field.node.van_ban.field_trich_yeu
+    - field.field.node.van_ban.field_van_ban
+    - node.type.van_ban
+  module:
+    - datetime
+    - file
+    - options
+    - user
+id: node.van_ban.default
+targetEntityType: node
+bundle: van_ban
+mode: default
+content:
+  field_co_quan_ban_hanh:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_loai_van_ban:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_nam:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_ngay_ban_hanh:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_trich_yeu:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_van_ban:
+    type: file_url_plain
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,36 @@
+name: 'Features Batiz'
+description: 'Features Batiz - Import content type, field, view ... for Batiz theme.'
+type: module
+core_version_requirement: ^8.8 || ^9 || ^10
+dependencies:
+  - block
+  - block_class
+  - block_content
+  - block_visibility_groups
+  - comment
+  - ctools
+  - entity_reference_revisions
+  - field
+  - file
+  - gavias_content_builder
+  - gavias_view
+  - gavias_views_magazine
+  - gaviasthemer
+  - image
+  - imce
+  - menu_ui
+  - node
+  - options
+  - paragraphs
+  - path
+  - pathauto
+  - statistics
+  - system
+  - taxonomy
+  - text
+  - user
+  - video_embed_field
+  - views
+  - views_infinite_scroll
+  - config_update
+  - features

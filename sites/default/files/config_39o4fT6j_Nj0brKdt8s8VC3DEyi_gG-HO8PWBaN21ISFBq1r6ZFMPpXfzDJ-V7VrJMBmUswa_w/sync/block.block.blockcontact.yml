@@ -1,0 +1,34 @@
+uuid: cbd61430-7d99-44d1-ab43-c056cd29ac9d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:aa5d9699-7ef5-4beb-a45d-432975762e19'
+  module:
+    - block_content
+    - block_visibility_groups
+    - gaviasthemer
+  theme:
+    - gavias_batiz
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: blockcontact
+theme: gavias_batiz
+region: other
+weight: 0
+provider: null
+plugin: 'block_content:aa5d9699-7ef5-4beb-a45d-432975762e19'
+settings:
+  id: 'block_content:aa5d9699-7ef5-4beb-a45d-432975762e19'
+  label: 'Block contact'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''

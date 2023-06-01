@@ -1,0 +1,48 @@
+uuid: 147efba3-d4bd-459f-8f3a-e287313df200
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.gallery.body
+    - field.field.node.gallery.field_gallery_images
+    - field.field.node.gallery.field_gallery_thumbnail
+    - image.style.medium
+    - node.type.gallery
+  module:
+    - image
+    - text
+    - user
+_core:
+  default_config_hash: Y-iccZsMT7QxV8FCD6jmWtL6RsfgUZivbzCgFqoaMIc
+id: node.gallery.teaser
+targetEntityType: node
+bundle: gallery
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_gallery_images:
+    type: image
+    label: above
+    settings:
+      image_link: content
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_gallery_thumbnail: true

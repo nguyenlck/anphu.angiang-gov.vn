@@ -1,0 +1,23 @@
+uuid: 81d0c1e2-391f-4ce2-b03c-d65b72a1e450
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - node
+id: node.field_van_ban
+field_name: field_van_ban
+entity_type: node
+type: file
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+module: file
+locked: false
+cardinality: 5
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

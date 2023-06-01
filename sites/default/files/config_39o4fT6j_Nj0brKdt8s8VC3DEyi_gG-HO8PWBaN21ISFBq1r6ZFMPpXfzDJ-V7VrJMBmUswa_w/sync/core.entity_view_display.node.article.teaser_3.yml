@@ -1,0 +1,72 @@
+uuid: 3b62ee3a-ca75-4cdd-a57b-4572f9230274
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser_3
+    - field.field.node.article.body
+    - field.field.node.article.comment
+    - field.field.node.article.field_image
+    - field.field.node.article.field_post_category
+    - field.field.node.article.field_post_format
+    - field.field.node.article.field_post_paragraph
+    - field.field.node.article.field_post_type
+    - field.field.node.article.field_tac_
+    - field.field.node.article.field_tags
+    - field.field.node.article.field_tai_lieu_dinh_kem_
+    - image.style.medium
+    - node.type.article
+  module:
+    - image
+    - options
+    - text
+    - user
+_core:
+  default_config_hash: 1x2VMLBhwpRPa-_Q_6J_ZN4QNazwCmP1dt01Zc-Iors
+id: node.article.teaser_3
+targetEntityType: node
+bundle: article
+mode: teaser_3
+content:
+  body:
+    type: text_trimmed
+    label: hidden
+    settings:
+      trim_length: 120
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_post_category:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_post_format:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  comment: true
+  field_post_paragraph: true
+  field_post_type: true
+  field_tac_: true
+  field_tags: true
+  field_tai_lieu_dinh_kem_: true
+  links: true
