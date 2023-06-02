@@ -1375,7 +1375,8 @@ header.header-v4 .block {
   color: #fff;
   font-size: 14px;
   line-height: 28px;
-  background: #095e4b;
+  background: url(http://localhost/anphu.angiang.gov.vn/sites/default/files/other/footer.jpg) center;
+  background-size: cover;
 }
 .footer a {
   color: #fff;
@@ -4350,6 +4351,9 @@ div.resizable-textarea textarea {
 
 .contact-info {
   line-height: 28px;
+}
+.contact-info ul > li:hover{
+  cursor: pointer;
 }
 
 .contact-info-page {
@@ -10979,4 +10983,19 @@ p.text-hover{
 }
 p.text-hover:hover{
 	color: #009673;
+	cursor: pointer;
+}
+.f-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -1rem;
+    flex-flow: row wrap;
+}
+
+.f-grid-col {
+    flex: 1 0;
+    background-color: fff;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
 }
